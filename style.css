@@ -8,6 +8,11 @@
     box-sizing: border-box;
 }
 
+html{
+    scroll-behavior: smooth; /*adapte les liens aux scolling*/
+    background-color: aliceblue;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     line-height: 1.6;
