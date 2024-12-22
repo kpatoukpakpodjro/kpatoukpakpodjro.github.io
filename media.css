@@ -18,7 +18,9 @@
     }
     #hamburger-nav{
         display: flex;
-
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 5%;
     }
     #experience , .experience-details-container{
         margin-top:2rem;
@@ -35,11 +37,7 @@
     section{
         margin:0 5%
     }
-    .section_pic{
-        width: 275px;
-        height: 275px;
-        margin: 0 auto 2rem;
-    }
+
     .about-containers{
         margin-top: 0;
     }
@@ -81,12 +79,7 @@
     gap: 0.5rem;
     text-align: center;
 }
-.section_pic{
-    width: auto;
-    height: 46vw;
-    justify-content: center;
 
-}
 .section_P2{
     font-size: 1.25rem;
 
@@ -102,9 +95,6 @@
 
 /* Responsive Design */
 @media (max-width: 768px) {
-    #gr-nav {
-        flex-direction: column;
-    }
 
     .section_pic img {
         width: 150px;
