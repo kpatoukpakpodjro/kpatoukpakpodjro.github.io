@@ -1,68 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-       <title>My port folio</title>
-       <meta charset="UTF-8">
-       <meta http-equiv="X-UA-Compatible" content="IE-edge">
-       <meta name="viewport" content="width=device-width , initial-scale=1.0">
-       <link rel="stylesheet" href="style.css">
-       <link rel="stylesheet" href="media.css"> 
-    </head>
-    <body>
-      <nav id="gr-nav">
-         <div class="logo">
-            <strong><p> Kpodjro KPATOUKPA</p></strong>
-            <!-- <i><p class="section_p1">Kpodjro KPATOUKPA</p></i> -->
-        </div> 
-        <div>
-            <ul class="nav-links">
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#experience">My Skills</a></li>
-                <li><a href="#projects">My projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+
+<head>
+    <title>My port folio</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div id="gr-nav">
+            <div class="logo">
+                <!-- <i><p class="section_p1">Kpodjro KPATOUKPA</p></i> -->
+                <p class="header-name"> Kpodjro KPATOUKPA</p>
+            </div>
+            <div>
+                <ul class="nav-links">
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#experience">My Skills</a></li>
+                    <li><a href="#projects">My projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
         </div>
-      </nav>
-      <nav id="hamburger-nav">
+    </nav>
+    <nav class="navbar" id="hamburger-nav">
         <div class="logo">Kpodjro KPATOUKPA</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
-               <span></span>
-               <span></span>
-               <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
             <div class="menu-links">
-                <li><a href="#about" onclick="toggleMenu()">About</a></li>
-                <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
-                <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
-                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                <ul>
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                </ul>
             </div>
         </div>
-      </nav>
-      <section id="profile">
+    </nav>
+    <section id="profile">
         <div class="section_pic">
-            <img src="./assets/profile.jpg" alt="'My profil picture" class="about-pic"/>
+            <img src="./assets/profile.jpg" alt="'My profil picture" class="about-pic" />
         </div>
         <div class="section_text">
             <p class="section_p1">Hello I'm</p>
-            <h2> KPATOUKPA </h2><p> Kpodjro </p> <!-- <strong> , 23 years old</strong> -->
+            <h2> KPATOUKPA </h2>
+            <p> Kpodjro </p> <!-- <strong> , 23 years old</strong> -->
             <p class="section_p2">Data Scientist/ Machine Learning Engineer</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/Kpodjro_KPATOUKPA CV_.pdf')">Download english CV</button>
-                <button class="btn btn-color-2" onclick="window.open('./assets/Kpodjro_KPATOUKPA CV.pdf')">Download french CV</button>
+                <button class="btn btn-color-2" onclick="window.open('./assets/Kpodjro_KPATOUKPA CV_.pdf')">Download
+                    english CV</button>
+                <button class="btn btn-color-2" onclick="window.open('./assets/Kpodjro_KPATOUKPA CV.pdf')">Download
+                    french CV</button>
             </div>
             <div class="socials-container">
                 <a href="https://www.linkedin.com/in/kpodjro-kpatoukpa-9a5643261/" target="_blank">
                     <img src="./assets/linkedin.png" alt="my LinkedIn profile" class="icon">
-                  </a>                  
+                </a>
                 <a href="https://github.com/kpatoukpakpodjro" target="_blank">
                     <img src="./assets/github.png" alt="my github profile" class="icon">
-                  </a>                  
+                </a>
             </div>
         </div>
-      </section>
+    </section>
 
-      <section id="about">
+    <section id="about">
         <h3 class="title">About me</h3>
         <div class="section-container">
             <div class="about-details-container">
@@ -70,7 +79,8 @@
                     <div class="details-container">
                         <img src="./assets/experience.png" alt="experience icon" class="icon">
                         <h3>End-of-studies internship </h3>
-                        <p><strong> ATTIJARIWAFA BANK</strong> <br>Implementation of an intelligent, bilingual and hybrid chatbot for After-Sales Service,
+                        <p><strong> ATTIJARIWAFA BANK</strong> <br>Implementation of an intelligent, bilingual and
+                            hybrid chatbot for After-Sales Service,
                             and a dashboard for monitoring chatbot-customer interactions in real time.</p>
                         <p><strong>Technologies : </strong></p>
                         <p> Mistral 7b, torch, streamlit, VSCode, HuggingFace, MongoDB, Jira</p>
@@ -78,7 +88,8 @@
                     <div class="details-container">
                         <img src="./assets/experience.png" alt="experience icon" class="icon">
                         <h3> Engineer Assistant Internship </h3>
-                        <p><strong> MLView Consulting</strong> <br>Email Marketing Optimization with Artificial Intelligence by sorting by prediction the
+                        <p><strong> MLView Consulting</strong> <br>Email Marketing Optimization with Artificial
+                            Intelligence by sorting by prediction the
                             customers who will be interested, followed by the generation of the hook</p>
                         <p><strong>Technologies : </strong></p>
                         <p>Langchain, OpenAI, LLAMA-2, tensorflow</p>
@@ -90,24 +101,27 @@
                     </div>
                 </div>
                 <div class="text-container">
-                    <p>I am currently pursuing my master's degree in Data Science with a specialization in machine learning algorithm development, data analysis and decision support system development at Paris Cité University in Paris. I am passionate about understanding data and designing AI algorithms that use data to make predictions and informed decisions.</p>
+                    <p>I am currently pursuing my master's degree in Data Science with a specialization  in machine
+                        learning algorithm development, data analysis and decision support system development at Paris
+                        Cité University in Paris. I am passionate about understanding data and designing AI algorithms
+                        that use data to make predictions and informed decisions.</p>
                 </div>
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="dsfgf" class="icon arrow" onclick="location.href='./#experience'"/>
+        <img src="./assets/arrow.png" alt="dsfgf" class="icon arrow" onclick="location.href='./#experience'" />
 
-      </section>
+    </section>
 
-      <section id="experience">
-        <p class="section_p1">Explore My</p>
-        <h3 class="title">Skills</h3>
+    <section id="experience">
+        <p class="section_p1" style="letter-spacing: 3px;">Explore My</p>
+        <h3 class="title" style="margin-bottom: 10px; font-size: 30px; letter-spacing: 3px;">Skills</h3>
         <div class="experience-details-container">
             <div class="about-containers">
-                <div class="details-container">
+                <div class="details-container detail-elem">
                     <h2 class="experience-sub-title">Data Science Skills</h2>
                     <div class="article-container">
                         <article>
-                            <img src="./assets/checkmark.png" alt="checkmark" class="icon"/>
+                            <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
                             <div>
                                 <h3>Languages</h3>
                                 <p>Python, Java, R, C/C++, PL/SQL</p>
@@ -116,56 +130,56 @@
                             </div>
                         </article>
                         <article>
-                            <img src="./assets/checkmark.png" alt="checkmark" class="icon"/>
+                            <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
                             <div>
                                 <h3>Data Processing</h3>
                                 <p>Pandas, Numpy, statsmodels, sklearn, Pyspark</p>
                             </div>
                         </article>
                         <article>
-                            <img src="./assets/checkmark.png" alt="checkmark" class="icon"/>
+                            <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
                             <div>
                                 <h3>Modelization</h3>
                                 <p>sklearn, TensorFlow, Keras, pytorch</p>
                             </div>
                         </article>
                         <article>
-                            <img src="./assets/checkmark.png" alt="checkmark" class="icon"/>
+                            <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
                             <div>
                                 <h3>Machine Learning</h3>
                                 <p>Supervised,<br>Unsupervised, Reinforcement, Ensemble Learning</p>
                             </div>
                         </article>
                         <article>
-                            <img src="./assets/checkmark.png" alt="checkmark" class="icon"/>
+                            <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
                             <div>
                                 <h3>Deep Learning</h3>
                                 <p>CNN, RNN, LSTM, ANN, TensorFlow, Keras</p>
                             </div>
                         </article>
                         <article>
-                            <img src="./assets/checkmark.png" alt="checkmark" class="icon"/>
+                            <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
                             <div>
                                 <h3>Computer Vision</h3>
                                 <p>OpenCV, Tesseract, KerasCV, pillow</p>
                             </div>
                         </article>
                         <article>
-                            <img src="./assets/checkmark.png" alt="checkmark" class="icon"/>
+                            <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
                             <div>
                                 <h3>NLP</h3>
                                 <p>Bert, KerasNLP, LLMAMA-2, Mistral</p>
                             </div>
                         </article>
                         <article>
-                            <img src="./assets/checkmark.png" alt="checkmark" class="icon"/>
+                            <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
                             <div>
                                 <h3>R & R-Shiny</h3>
                                 <p>Statistical Modeling, Dashboard Development</p>
                             </div>
                         </article>
                         <article>
-                            <img src="./assets/checkmark.png" alt="checkmark" class="icon"/>
+                            <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
                             <div>
                                 <h3>Databases</h3>
                                 <p>MySQL, PostgreSQL, MongoDB, Oracle, Hive</p>
@@ -173,60 +187,60 @@
                         </article>
                     </div>
                 </div>
-                <div class="details-container">
+                <div class="details-container detail-elem">
                     <h2 class="experience-sub-title">Web and Other Skills</h2>
                     <div class="article-container">
                         <article>
-                            <img src="./assets/checkmark.png" alt="checkmark" class="icon"/>
+                            <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
                             <div>
                                 <h3>Frontend Development</h3>
                                 <p>HTML5 & CSS3, Streamlit, Flask, FastAPI, Shiny, Angular (Beginner)</p>
                             </div>
                         </article>
                         <article>
-                            <img src="./assets/checkmark.png" alt="checkmark" class="icon"/>
+                            <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
                             <div>
                                 <h3>Scraping</h3>
                                 <p>scrapy, BeautifulSoup, Selenium, pytrend</p>
                             </div>
                         </article>
                         <article>
-                            <img src="./assets/checkmark.png" alt="checkmark" class="icon"/>
+                            <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
                             <div>
                                 <h3>Versioning and Collaboration</h3>
                                 <p>Git & GitHub</p>
                             </div>
                         </article>
                         <article>
-                            <img src="./assets/checkmark.png" alt="checkmark" class="icon"/>
+                            <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
                             <div>
                                 <h3>Containerization and Deployment</h3>
                                 <p>Docker</p>
                             </div>
                         </article>
                         <article>
-                            <img src="./assets/checkmark.png" alt="checkmark" class="icon"/>
+                            <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
                             <div>
                                 <h3> Work Automation & cloud</h3>
                                 <p>Airflow, cron(Linux), AWS </p>
                             </div>
                         </article>
                         <article>
-                            <img src="./assets/checkmark.png" alt="checkmark" class="icon"/>
+                            <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
                             <div>
                                 <h3> Projet Management</h3>
                                 <p> Gantt Project, Jira </p>
                             </div>
                         </article>
                         <article>
-                            <img src="./assets/checkmark.png" alt="checkmark" class="icon"/>
+                            <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
                             <div>
                                 <h3>Latex</h3>
                                 <p>Scientific Document Preparation</p>
                             </div>
                         </article>
                         <article>
-                            <img src="./assets/checkmark.png" alt="checkmark" class="icon"/>
+                            <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
                             <div>
                                 <h3>Power BI & Tableau</h3>
                                 <p>Data Visualization, Dashboard Development</p>
@@ -236,116 +250,124 @@
                 </div>
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="Next Section" class="icon arrow" onclick="location.href='./#projects'"/>
+        <img src="./assets/arrow.png" alt="Next Section" class="icon arrow" onclick="location.href='./#projects'" />
     </section>
-    
+
 
     <section id="projects">
-        <p class="section_p1">Browse my</p>
-        <h3 class="title">Projects</h3>
+        <p class="section_p1" style="letter-spacing: 3px;">Browse my</p>
+        <h3 class="title" style="margin-bottom: 10px; letter-spacing: 3px;">Projects</h3>
         <div class="experience-details-container">
             <div class="about-containers">
-             <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/Supply_chain.png" alt="image-project1" class="project-img"/>
+                <div class="details-contain color-container">
+                    <div class="article-container">
+                        <img src="./assets/Supply_chain.png" alt="image-project1" class="project-img" />
+                    </div>
+                    <h2> Implementation of a supermarket supply anticipation system based on sales</h2>
+                    <p>Sklearn, tensorflow, Keras, matplotlib</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/kpatoukpakpodjro/Image_Captioning_in_Arabic', '_blank')">
+                            Github
+                        </button>
+                    </div>
                 </div>
-                <h2>  Implementation of a supermarket supply anticipation system based on sales</h2>
-                <p>Sklearn, tensorflow, Keras, matplotlib</p>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/kpatoukpakpodjro/Image_Captioning_in_Arabic', '_blank')">
-                        Github
-                    </button>                 
-                </div>
-             </div>
-              <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/Credit_scoring.png" alt="image-project2" class="project-img"/>
-                
-                </div>
-                <h2> calculation of the probability of credit repayment</h2>
-                <p>sklearn, seaborn, xgboost, lightgbm</p>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/kpatoukpakpodjro?tab=repositories', '_blank')">
-                        Github
-                    </button>
-                </div>
-             </div>
-             <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/Customer_churn.png" alt="image-project3" class="project-img"/>
-                </div>
-                <h2>Real-time customer unsubscription prediction</h2>
-                <p> Kafka Stream, PySpark, Sklearn, Flask, Angular, Docker</p>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/kpatoukpakpodjro/Big-Data-Project', '_blank')">
-                        Github
-                    </button>
-                </div>
-             </div>
-             <!-- autre projet -->
-        </div>
-        <div class="experience-details-container">
-            <div class="about-containers">
-             <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/Image_captioning.png" alt="image-project1" class="project-img"/>
-                </div>
-                <h2> Implementation of an Image Captioning platform</h2>
-                <p>Sklearn, OpenCV, flask</p>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/kpatoukpakpodjro/Image_Captioning_in_Arabic', '_blank')">
-                        Github
-                    </button>                 
-                </div>
-             </div>
-              <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/chat_pdf.png" alt="image-project2" class="project-img"/>
-                
-                </div>
-                <h2>Advanced RAG system with LLAMA-2</h2>
-                <p>Langchain, Streamlit, FAISS, LLMAMA-2</p>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/kpatoukpakpodjro/Chatter_avec_plusieurs_PDFs', '_blank')">
-                        Github
-                    </button>
-                </div>
-             </div>
-             <!-- autre projet -->
-             <div class="details-container color-container">
-                <div class="article-container">
-                    <img src="./assets/Search_image.png" alt="image-project4" class="project-img"/>
-                </div>
-                <h2 class="experience-sub-title project-title"> Image search by content based on color and shape</h2>
-                <div class="btn-container">
-                    <button class="btn btn-color-2 project-btn" onclick="window.open('https://github.com/kpatoukpakpodjro/Search-similar-images-by-content', '_blank')">
-                        Github
-                    </button>                    
-                </div>
-             </div>
-            </div>
-        </div>
-        <img src="./assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#contact'"/>
-      </section>
+                <div class="details-contain color-container">
+                    <div class="article-container">
+                        <img src="./assets/Credit_scoring.png" alt="image-project2" class="project-img" />
 
-      <section id="contact">
+                    </div>
+                    <h2> calculation of the probability of credit repayment</h2>
+                    <p>sklearn, seaborn, xgboost, lightgbm</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/kpatoukpakpodjro?tab=repositories', '_blank')">
+                            Github
+                        </button>
+                    </div>
+                </div>
+                <div class="details-contain color-container">
+                    <div class="article-container">
+                        <img src="./assets/Customer_churn.png" alt="image-project3" class="project-img" />
+                    </div>
+                    <h2>Real-time customer unsubscription prediction</h2>
+                    <p> Kafka Stream, PySpark, Sklearn, Flask, Angular, Docker</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/kpatoukpakpodjro/Big-Data-Project', '_blank')">
+                            Github
+                        </button>
+                    </div>
+                </div>
+                <!-- autre projet -->
+            </div>
+            <div class="experience-details-container">
+                <div class="about-containers">
+                    <div class="details-contain color-container">
+                        <div class="article-container">
+                            <img src="./assets/Image_captioning.png" alt="image-project1" class="project-img" />
+                        </div>
+                        <h2> Implementation of an Image Captioning platform</h2>
+                        <p>Sklearn, OpenCV, flask</p>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="window.open('https://github.com/kpatoukpakpodjro/Image_Captioning_in_Arabic', '_blank')">
+                                Github
+                            </button>
+                        </div>
+                    </div>
+                    <div class="details-contain color-container">
+                        <div class="article-container">
+                            <img src="./assets/chat_pdf.png" alt="image-project2" class="project-img" />
+
+                        </div>
+                        <h2>Advanced RAG system with LLAMA-2</h2>
+                        <p>Langchain, Streamlit, FAISS, LLMAMA-2</p>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="window.open('https://github.com/kpatoukpakpodjro/Chatter_avec_plusieurs_PDFs', '_blank')">
+                                Github
+                            </button>
+                        </div>
+                    </div>
+                    <!-- autre projet -->
+                    <div class="details-contain color-container">
+                        <div class="article-container">
+                            <img src="./assets/Search_image.png" alt="image-project4" class="project-img" />
+                        </div>
+                        <h2 > Image search by content based on color and shape
+                        </h2>
+                        <div class="btn-container">
+                            <button class="btn btn-color-2 project-btn"
+                                onclick="window.open('https://github.com/kpatoukpakpodjro/Search-similar-images-by-content', '_blank')">
+                                Github
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/arrow.png" alt="arrow" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+
+    <section id="contact">
         <p class="section_p1">Get in touch</p>
         <h1 class="title">Contact Me</h1>
         <div class="contact-info-upper-container">
             <div class="contact-info-container">
-                <img src="./assets/email.png" alt="mail" class="icon contact-icon email-icon"/>
+                <img src="./assets/email.png" alt="mail" class="icon contact-icon email-icon" />
                 <p><a href="mailto:kpatoukpakpodjro@gmail.com" target="_blank">write me here</a></p>
             </div>
             <div class="contact-info-container">
-                <img src="./assets/linkedin.png" alt="LinkedIn" class="icon contact-icon"/>
+                <img src="./assets/linkedin.png" alt="LinkedIn" class="icon contact-icon" />
                 <p><a href="https://www.linkedin.com/in/kpodjro-kpatoukpa-9a5643261/" target="_blank">LinkedIn</a></p>
-            </div>            
+            </div>
         </div>
-      </section>
-        <p>Copyright &#169; <!--symbole du copyright &#169;--> 2024 Kpodjro KPATOUKPA. All Rights Reserved.</p>
-      </footer>
-       <script src="script.js">
+    </section>
+    <p class="copyright">Copyright &#169; <!--symbole du copyright &#169;--> 2024 Kpodjro KPATOUKPA. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js">
 
-       </script>
-    </body>
+    </script>
+</body>
+
 </html>
