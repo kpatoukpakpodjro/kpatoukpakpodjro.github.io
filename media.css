@@ -99,3 +99,29 @@
 }
 
 }
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #gr-nav {
+        flex-direction: column;
+    }
+
+    .section_pic img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .details-container {
+        max-width: 100%;
+     }
+
+     .details-contain {
+        max-width: 100%;
+     }
+}
+
+@media (max-width: 1254px) {
+    article {
+        width: 90%;
+    }
+}
