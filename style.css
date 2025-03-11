@@ -76,23 +76,23 @@ body {
 }
 
 /* Hero Section */
+
 #profile {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    padding: 4rem 2rem;
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
+    background: radial-gradient( rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%); 
     color: white;
     text-align: center;
-    margin-top: 70px;
+    gap:5rem;
+    margin-left: 10px;
+    height: 80vh;
 }
 
 .section_pic img {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 320px;
+    height: 400px;
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0.2);
     animation: fadeIn 1s ease-in;
 }
 
@@ -390,4 +390,40 @@ footer {
         opacity: 1;
         transform: translateY(0);
     }
+}
+button {
+    background-color: #4CAF50; /* Couleur de fond */
+    border: none; /* Supprimer la bordure */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement intérieur */
+    text-align: center; /* Alignement du texte */
+    text-decoration: none; /* Supprimer la décoration de texte */
+    display: inline-block; /* Afficher comme un élément en ligne */
+    font-size: 16px; /* Taille de la police */
+    margin: 4px 2px; /* Marge */
+    cursor: pointer; /* Curseur au survol */
+    border-radius: 5px; /* Bords arrondis */
+}
+
+button:hover {
+    background-color: #3e8e41; /* Couleur de fond au survol */
+}
+/* Supprimer les puces par défaut */
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+/* Style des éléments de la liste */
+ul li {
+    font-size: 1rem;
+    text-align: justify; /* Justification du texte */
+    margin-bottom: 4px; /* Espacement entre les éléments */
+}
+
+/* Ajouter un symbole de case à cocher avant chaque élément de la liste */
+ul li::before {
+    content: "☑ ";
+    font-size: 1.2rem; /* Taille du symbole */
+    color: green; /* Couleur du symbole */
 }
