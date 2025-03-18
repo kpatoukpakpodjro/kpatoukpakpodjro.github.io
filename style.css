@@ -428,3 +428,16 @@ ul li::before {
     font-size: 1.2rem; /* Taille du symbole */
     color: green; /* Couleur du symbole */
 }
+
+#certifications .title {
+    text-align: center; /* Centre le texte */
+    margin-bottom: 10px;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+#certifications .section_p1 {
+    text-align: center; /* Centre le texte */
+    margin-bottom: 10px;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
