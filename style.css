@@ -208,7 +208,23 @@ body {
     color: #333;
     margin-bottom: 1rem;
 }
-
+#research {
+    padding: 4rem 2rem;
+    background-color: #f1f5f9;
+    text-align: center;
+}
+#research .title {
+    text-align: center; /* Centre le texte */
+    margin-bottom: 10px;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+#research .section_p1 {
+    text-align: center; /* Centre le texte */
+    margin-bottom: 10px;
+    font-size: 30px;
+    letter-spacing: 3px;
+}
 /* Skills Section */
 #experience {
     padding: 4rem 2rem;

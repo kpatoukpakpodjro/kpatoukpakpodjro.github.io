@@ -21,6 +21,7 @@
                 <ul class="nav-links">
                     <li><a href="#about">About Me</a></li>
                     <li><a href="#experience">My Skills</a></li>
+                    <li><a href="#research">My researchs</a></li>
                     <li><a href="#projects">My projects</a></li>
                     <li><a href="#certifications">My certifications</a></li>
                     <li><a href="#contact">Contact</a></li>
@@ -75,7 +76,7 @@
     <section id="about">
         <h3 class="title">About me</h3>
         <div class="text-container">
-            <p>Machine Learning Engineer with 8 months of experience developing and optimizing LLM models.
+            <p>Machine Learning Engineer with two experiences developing and optimizing LLM models.
                 Expertise in data mining, managing question-answering systems, and fine-tuning language models,
                 having improved prediction scores by 23% during a recent internship. Able to transform complex 
                 analyses into practical solutions.<br> Ready to bring NLP and machine learning skills to meet business needs.
@@ -104,7 +105,7 @@
                     </div>
                     <div class="details-container">
                         <img src="./assets/experience.png" alt="experience icon" class="icon">
-                        <h3> Engineer Assistant Internship </h3>
+                        <h3> Data Scientist assistant Internship </h3>
                         <p><strong> MLView Consulting</strong> <br><p style="color: blueviolet;">August 2023 -  September 2023</p>
                         <ul>
                             <li>Exploratory analysis of marketing data in collaboration with the marketing team.</li>
@@ -131,8 +132,61 @@
                 </div>
             </div>
         </div>
-        <img src="./assets/arrow.png" alt="dsfgf" class="icon arrow" onclick="location.href='./#experience'" />
+        <img src="./assets/arrow.png" alt="dsfgf" class="icon arrow" onclick="location.href='./#research'" />
+    </section>
+    <section id="research">
+        <p class="section_p1" style="letter-spacing: 3px;"> Discover my</p>
+        <h3 class="title" style="margin-bottom: 10px; font-size: 30px; letter-spacing: 3px;">Research Papers</h3>
 
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-contain color-container">
+                    <div class="article-container">
+                        </div>
+                    <h2>LLM with graph augmentation for recommandations</h2>
+                    <p><strong>Research project (in a team of 4 students) : </strong><p style="color: blueviolet;">10/2024 - 05/2025 </p></p>
+                    <p><strong>Abstract :</strong> Enhanced movie recommendations using LLMs (Gemini-1.5, Mistral) to enrich user/item profiles, significantly improving accuracy in LightGCN, MLP, and Matrix Factorization by addressing data sparsity and enabling nuanced personalization. Focused on responsible integration, acknowledging challenges like bias and cost.</p>
+                    <p><strong>Main tasks :</strong></p>
+                    <ul>
+                        <li>Getting started with the dataset & understand the problematic of the need;</li>
+                        <li>Study and build a baseline with appropriate models for recommander systems (here: LightGCN, MLP and Matrix Factorization);</li>
+                        <li>Do prompt engineering and enrich the dataset by generating significant attributes;</li>
+                        <li>Perform MLOps on the new dataset(objective: Predict the rating);</li>
+                        <li>Study the impacts and leave recommendations regarding the approach.</li>
+                    </ul>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/PPT_PPD.pdf', '_blank')">
+                            Read the overwiew
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/2311.00423v6.pdf', '_blank')">
+                            Initial research paper
+                        </button>
+                    </div>
+                </div>
+                <div class="details-contain color-container">
+                <div class="article-container">
+                </div>
+                    <h2>Improving Part-of-Speech Tagging in English with TreeTagger</h2>
+                                        <p><strong>Research project (in a team of 4 students) : </strong><p style="color: blueviolet;">01/2025 - 02/2025 </p></p>
+                    <p><strong>Abstract:</strong> This paper explores the use of TreeTagger to accurately identify the different functions of the word "that" in English, such as conjunction, relative pronoun, determiner, or adverb. We first evaluate pre-trained models from the BNC and Penn corpora on a test dataset, then re-train TreeTagger with specific labels derived from the Brown corpus to enhance accuracy. Comparisons with other tools like Stanza and UDpipe are also presented. The main findings demonstrate that re-training with the Brown corpus significantly improves the tool’s performance and ability to distinguish among the various uses of "that".</p>
+                    <p><strong>Main Tasks:</strong></p>
+                    <ul>
+                        <li>Data collection and preparation, including annotating the Brown corpus with specific labels.</li>
+                        <li>Initial evaluation of BNC and Penn models for categorizing "that".</li>
+                        <li>Re-training TreeTagger with a tailored label set.</li>
+                        <li>Comparison of performance with other tools (Stanza and UDpipe).</li>
+                        <li>Analyzing the impact of training data size on tagging precision.</li>
+                        <li>Proposing methods to better detect and categorize "that" in various linguistic contexts.</li>
+                    </ul>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/POS_treetagger.pdf', '_blank')">
+                        Open the Article
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="Next Section" class="icon arrow" onclick="location.href='#experience'" />
     </section>
 
     <section id="experience">
@@ -177,7 +231,7 @@
                             <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
                             <div>
                                 <h3>Deep Learning</h3>
-                                <p>CNN, RNN, LSTM, ANN, TensorFlow, Keras</p>
+                                <p>CNN, RNN, LSTM, ANN, TensorFlow, Keras,GNN</p>
                             </div>
                         </article>
                         <article>
@@ -245,7 +299,7 @@
                             <img src="./assets/checkmark.png" alt="checkmark" class="icon" />
                             <div>
                                 <h3> Work Automation & cloud</h3>
-                                <p>Airflow, cron(Linux), AWS </p>
+                                <p>Airflow, cron(Linux), AWS, GCP, Vertex AI </p>
                             </div>
                         </article>
                         <article>
