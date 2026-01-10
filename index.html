@@ -19,11 +19,11 @@
             </div>
             <div>
                 <ul class="nav-links">
-                    <li><a href="#about">About Me</a></li>
-                    <li><a href="#experience">My Skills</a></li>
-                    <li><a href="#research">My researchs</a></li>
-                    <li><a href="#projects">My projects</a></li>
-                    <li><a href="#certifications">My certifications</a></li>
+                    <li><a href="#about">Experiences</a></li>
+                    <li><a href="#research">Researchs</a></li>
+                    <li><a href="#experience">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -39,7 +39,7 @@
             </div>
             <div class="menu-links">
                 <ul>
-                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#about" onclick="toggleMenu()">Experiences</a></li>
                     <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
                     <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
                     <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
@@ -54,7 +54,7 @@
         <div class="section_text">
             <p class="section_p1">Hello I'm</p>
             <h2> KPATOUKPA </h2>
-            <p> Kpodjro </p> <!-- <strong> , 23 years old</strong> -->
+            <p> Kpodjro </p>
             <p class="section_p2">Data Scientist/ Machine Learning Engineer</p>
             <div class="btn-container">
                 <button class="btn btn-color-2" onclick="window.open('./assets/Kpodjro_KPATOUKPA CV_.pdf')">Visualize
@@ -73,20 +73,46 @@
         </div>
     </section>
 
-    <section id="about">
+    <section id="introduction">
         <h3 class="title">About me</h3>
         <div class="text-container">
-            <p>Machine Learning Engineer with two experiences developing and optimizing LLM models.
-                Expertise in data mining, managing question-answering systems, and fine-tuning language models,
-                having improved prediction scores by 23% during a recent internship. Able to transform complex 
-                analyses into practical solutions.<br> Ready to bring NLP and machine learning skills to meet business needs.
-                I am currently pursuing my master's degree in Data Science with a specialization  in machine
-                learning algorithm development, data analysis and decision support system development at Paris
-                Cité University in Paris.</p>
+            <p>Machine Learning Engineer with hands-on experience in developing and optimising large language models (LLMs) and applied AI systems. Currently completing a <strong>one-year work-study placement in Data Science and Generative AI</strong>, where I design and deploy end-to-end machine learning solutions in a real-world, production-oriented environment.
+            </p>
+            <p>My background includes strong expertise in data mining, NLP, question–answering systems and language model fine-tuning, achieving a <strong>23% improvement in predictive performance</strong> during a recent internship.
+                I have also led research-oriented projects, including:
+                <ul style="list-style: none; padding: 0; margin: 0;">
+                    <li><strong>A generative AI–enhanced recommendation system</strong> combining graph models and LLMs;</li>
+                    <li><strong>A categorical GAN (CatGAN)</strong> for synthetic data generation reaching <strong>97% reliability</strong>;</li>
+                    <li><strong>The design of machine learning models</strong> for anomaly detection, risk prioritisation and decision support.</li>
+                </ul>
+            <p>I am currently pursuing a <strong>Master’s degree in Data Science at Université Paris Cité</strong>, specialising in machine learning algorithm development, advanced data analysis and decision support systems.
+            </p>
         </div>
+    </section>
+
+    <section id="about">
+        <h3 class="title">My experiences</h3>
         <div class="section-container">
             <div class="about-details-container">
                 <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="experience icon" class="icon">
+                        <h3>Data Scientist - Generative AI</h3>
+                        <p>
+                            <strong>URSSAF Caisse Nationale</strong> <br>
+                            <p style="color: blueviolet;">October 2025 – September 2026</p>
+                            <ul>
+                                <li>Design and development of internal chatbot based on LLMs.</li>
+                                <li>Implementation of NLP pipelines for analysing large-scale datasets and user verbatims.</li>
+                                <li>Development of predictive and scoring models to support decision-making and risk prioritisation.</li>
+                                <li>Collaboration with business teams and IT to deploy AI solutions.</li>
+                                <li>Contribution to the evaluation and improvement of generative AI models in production.</li>
+                            </ul>
+                        </p>
+                        <p><strong>Technologies:</strong></p>
+                        <p>Python, PyTorch, LangChain, LangGraph, Docker, Kubernetes, GitLab, PostgreSQL, OpenSearch, OVH Cloud</p>
+                    </div>
+
                     <div class="details-container">
                         <img src="./assets/experience.png" alt="experience icon" class="icon">
                         <h3>End-of-studies internship </h3>
@@ -104,8 +130,8 @@
                         <button class="btn btn-color-2" onclick="window.open('./assets/Rapport_PFE_VF_1_7.pdf')">Tasks Details</button>
                     </div>
                     <div class="details-container">
-                        <img src="./assets/experience.png" alt="experience icon" class="icon">
-                        <h3> Data Scientist assistant Internship </h3>
+                       <img src="./assets/experience.png" alt="experience icon" class="icon">
+                         <h3> Data Scientist assistant Internship </h3>
                         <p><strong> MLView Consulting</strong> <br><p style="color: blueviolet;">August 2023 -  September 2023</p>
                         <ul>
                             <li>Exploratory analysis of marketing data in collaboration with the marketing team.</li>
@@ -115,19 +141,60 @@
                         <p><strong>Technologies : </strong></p>
                         <p>Langchain, HuggingFace, LLAMA-2, tensorflow, VSCode, Colab, Git&Github, SQL</p>
                     </div>
-                    <div class="details-container">
-                        <img src="./assets/education.png" alt="education icon" class="icon">
-                        <h3>Education</h3>
-                        <p><p style="color: blue;"> Since September 2024 :</p>MSc's degree in Machine Learning for Data Science, Paris Cité University, Paris France
-                        <a href="https://odf.u-paris.fr/fr/offre-de-formation/master-XB/sciences-technologies-sante-STS/informatique-K2NDIF4R//master-informatique-parcours-apprentissage-machine-pour-la-sciences-des-donnees-JT5NWY1E.html"
-                         target="_blank" class="university-button">Major field program</a>
-                    </p>
-                        <p><p style="color: blue;">  2021 - 2024 :</p>Engineering degree in Software and intelligent Systems, Abdelmalek Essaadi University, Tangier, Morocco
-                        <a href="https://fstt.ac.ma/Portail2023/cycle-ingenieur/" target="_blank" class="university-button">Major field program</a>
-                    </p>
-                        <p><p style="color: blue;">  2019 - 2021 :</p>Associate's Degree in Mathematics,Computer Science and physics, Hassan 1st University, Settat Morocco
-                        <a href="https://www.fsts.ac.ma/filieres/tronc-commun" target="_blank" class="university-button">Major field program</a>
-                    </p>
+                </div>
+                <div class="details-container">
+                    <img src="./assets/education.png" alt="education icon" class="icon">
+                    <h3>Education</h3>
+                    <div class="education-grid">
+                        <!-- MSc -->
+                        <div class="education-item">
+                            <p class="education-date">2024 - 2026</p>
+                            <p>
+                                <strong>MSc in Machine Learning for Data Science</strong><br>
+                                Paris Cité University, Paris, France
+                            </p>
+                            <p class="education-modules">
+                                Reinforcement Learning & Graph Learning, Recommendation Systems,
+                                Clustering & Dimensionality Reduction, NLP, Data Visualization,
+                                Time Series, Mixture Models, Vertex AI (GCP)
+                            </p>
+                            <a href="https://odf.u-paris.fr/fr/offre-de-formation/master-XB/sciences-technologies-sante-STS/informatique-K2NDIF4R//master-informatique-parcours-apprentissage-machine-pour-la-sciences-des-donnees-JT5NWY1E.html"
+                            target="_blank" class="university-button">
+                            Program
+                            </a>
+                        </div>
+                        <!-- Engineering Degree -->
+                        <div class="education-item">
+                            <p class="education-date">2021 – 2024</p>
+                            <p>
+                                <strong>Engineering Degree in Software and Intelligent Systems</strong><br>
+                                Abdelmalek Essaadi University, Tangier, Morocco
+                            </p>
+                            <p class="education-modules">
+                                Machine Learning, Deep Learning, AI Methodology,
+                                Computer Vision, Data Mining, Inferential Statistics, BI, UML, Informed Search Algorithms, Design Patterns
+                            </p>
+                            <a href="https://fstt.ac.ma/Portail2023/cycle-ingenieur/"
+                            target="_blank" class="university-button">
+                            Program
+                            </a>
+                        </div>
+                        <!-- Associate Degree -->
+                        <div class="education-item">
+                            <p class="education-date">2019 – 2021</p>
+                            <p>
+                                <strong>Associate's Degree in Mathematics, Computer Science & Physics</strong><br>
+                                Hassan 1st University, Settat, Morocco
+                            </p>
+                            <p class="education-modules">
+                                Algebra, Numerical & Complex Analysis, Statistics,
+                                C/C++, Mathematical Optimization, Databases, Graph Theory
+                            </p>
+                            <a href="https://www.fsts.ac.ma/filieres/tronc-commun"
+                            target="_blank" class="university-button">
+                            Program
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -137,12 +204,43 @@
     <section id="research">
         <p class="section_p1" style="letter-spacing: 3px;"> Discover my</p>
         <h3 class="title" style="margin-bottom: 10px; font-size: 30px; letter-spacing: 3px;">Research Papers</h3>
-
         <div class="experience-details-container">
             <div class="about-containers">
                 <div class="details-contain color-container">
-                    <div class="article-container">
-                        </div>
+                    <div class="article-container"></div>
+                    <h2>Unsupervised and Semi-Supervised Learning with CatGAN and RIM</h2>
+                    <p>
+                        <strong>Research project (in a team of 4 students): </strong>
+                        <p style="color: blueviolet;">01/2025</p>
+                    </p>
+                    <p>
+                        <strong>Abstract :</strong>
+                        This research explores semi-supervised learning under extreme label scarcity. 
+                        Several approaches are studied and compared, including supervised baselines, CatGAN (MLP and CNN variants), and Regularized Information Maximization (RIM).
+                        The results demonstrate that combining CatGAN with convolutional architectures significantly improves classification performance by leveraging unlabeled data
+                        and maximizing information content in the discriminator’s predictions.
+                    </p>
+                    <p><strong>Main tasks :</strong></p>
+                    <ul>
+                        <li>Implementation of supervised baselines using MLP and CNN discriminators trained on only 100 labeled samples;</li>
+                        <li>Design and training of CatGAN in a semi-supervised setting (MLP and CNN variants);</li>
+                        <li>Implementation of RIM as a non-adversarial semi-supervised baseline;</li>
+                        <li>Analysis of training dynamics using entropy-based objectives and marginal entropy monitoring;</li>
+                        <li>Comprehensive evaluation using accuracy, recall, F1-score, AUC, confusion matrices, and per-class performance.</li>
+                    </ul>
+
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/CatGAN_Report.pdf', '_blank')">
+                            Read the report
+                        </button>
+                        <button class="btn btn-color-2 project-btn" onclick="window.open('./assets/CatGAN_paper.pdf', '_blank')">
+                            Initial research paper
+                        </button>
+                    </div>
+                </div>
+
+                <div class="details-contain color-container">
+                    <div class="article-container"></div>
                     <h2>LLM with graph augmentation for recommandations</h2>
                     <p><strong>Research project (in a team of 4 students) : </strong><p style="color: blueviolet;">10/2024 - 05/2025 </p></p>
                     <p><strong>Abstract :</strong> Enhanced movie recommendations using LLMs (Gemini-1.5, Mistral) to enrich user/item profiles, significantly improving accuracy in LightGCN, MLP, and Matrix Factorization by addressing data sparsity and enabling nuanced personalization. Focused on responsible integration, acknowledging challenges like bias and cost.</p>
@@ -164,11 +262,11 @@
                     </div>
                 </div>
                 <div class="details-contain color-container">
-                <div class="article-container">
-                </div>
+                <div class="article-container"></div>
                     <h2>Improving Part-of-Speech Tagging in English with TreeTagger</h2>
                                         <p><strong>Research project (in a team of 4 students) : </strong><p style="color: blueviolet;">01/2025 - 02/2025 </p></p>
-                    <p><strong>Abstract:</strong> This paper explores the use of TreeTagger to accurately identify the different functions of the word "that" in English, such as conjunction, relative pronoun, determiner, or adverb. We first evaluate pre-trained models from the BNC and Penn corpora on a test dataset, then re-train TreeTagger with specific labels derived from the Brown corpus to enhance accuracy. Comparisons with other tools like Stanza and UDpipe are also presented. The main findings demonstrate that re-training with the Brown corpus significantly improves the tool’s performance and ability to distinguish among the various uses of "that".</p>
+                    <p><strong>Abstract:</strong> This paper explores the use of TreeTagger to accurately identify the different functions of the word "that" in English,
+                         such as conjunction, relative pronoun, determiner, or adverb. We first evaluate pre-trained models from the BNC and Penn corpora, then re-train TreeTagger with specific labels derived from the Brown corpus to enhance accuracy. Comparisons with Stanza and UDpipe are presented. The main findings demonstrate that re-training with the Brown corpus significantly improves the tool’s performance and ability to distinguish between various uses of "that".</p>
                     <p><strong>Main Tasks:</strong></p>
                     <ul>
                         <li>Data collection and preparation, including annotating the Brown corpus with specific labels.</li>
@@ -338,6 +436,49 @@
             <div class="about-containers">
                 <div class="details-contain color-container">
                     <div class="article-container">
+                        <img src="./assets/weak_signals.png" alt="image-project-weak-signals" class="project-img" />
+                    </div>
+                    <h2>Weak Signal Detection and Anomalous Behavior Analysis</h2>
+                    <p>Feature extraction (FFT, spectral features) , LLE, TSNE, K-Means, Hierarchical Clustering, Spectral Clustering, Fuzzy KMeans</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/kpatoukpakpodjro/Weak-signal-detection', '_blank')">
+                            Github
+                        </button>
+                    </div>
+                </div>
+                <div class="details-contain color-container">
+                    <div class="article-container">
+                        <img src="./assets/kmeans_bigdata.png" alt="image-project-kmeans" class="project-img" />
+                    </div>
+                    <h2>Distributed and Streaming Optimization of K-Means for Big Data</h2>
+                    <p>PySpark, Spark Streaming, MLlib, Apache Beam, Big Data</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/kpatoukpakpodjro/ApacheBeam_Stram_Clustering', '_blank')">
+                            Github
+                        </button>
+                    </div>
+                </div>
+                <div class="details-contain color-container">
+                    <div class="article-container">
+                        <img src="./assets/people_insights.png" alt="image-project-nlp" class="project-img" />
+                    </div>
+                    <h2>NLP-Based People Insights from Large-Scale Textual Feedback</h2>
+                    <p>Python, NLP, Scikit-learn, UMAP, Sentiment Analysis</p>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn"
+                            onclick="window.open('https://github.com/kpatoukpakpodjro/TextDataInsight_Verbatims', '_blank')">
+                            Github
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-contain color-container">
+                    <div class="article-container">
                         <img src="./assets/Supply_chain.png" alt="image-project1" class="project-img" />
                     </div>
                     <h2> Implementation of a supermarket supply anticipation system based on sales</h2>
@@ -376,8 +517,9 @@
                         </button>
                     </div>
                 </div>
-                <!-- autre projet -->
-            </div>
+        </div>
+        <div class="experience-details-container">
+            <div class="about-containers">
             <div class="experience-details-container">
                 <div class="about-containers">
                     <div class="details-contain color-container">
@@ -528,7 +670,7 @@
             </div>
         </div>
     </section>
-    <p class="copyright">Copyright &#169; <!--symbole du copyright &#169;--> 2025 Kpodjro KPATOUKPA. All Rights Reserved.</p>
+    <p class="copyright">Copyright &#169; <!--symbole du copyright &#169;--> 2026 Kpodjro KPATOUKPA. All Rights Reserved.</p>
     </footer>
     <script src="script.js">
     </script>
